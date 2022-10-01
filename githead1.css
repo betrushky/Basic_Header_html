@@ -1,0 +1,75 @@
+body{
+    background-image: url("fondo2.jpg");
+    margin: 0%;
+}
+
+header{
+    margin: 0;
+    padding: 15px;
+    background-color: rgb(41, 37, 38);
+    position:relative;
+}
+.cab{
+    text-decoration: none;
+    float: left;
+    color: antiquewhite;
+}
+#logo{
+    font-size: 20px;
+    font-style: oblique;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+span{
+    display: block;
+}
+
+ul{
+    text-align: right;
+    padding-top: 0;
+    overflow: hidden;
+   
+    
+}
+ul li{
+    
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: rgb(158, 93, 93);
+}
+
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+
+footer{
+    display: block-inline;
+    padding: 1.7rem;
+    padding-bottom: 3rem;
+    background-color: rgb(41, 37, 38);
+    color: antiquewhite;
+}
+#contacto{
+    float: right;
+}
+#contacto a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+#derechos{
+    float: left;
+}
+#warn{
+    text-align: center;
+    background-color: rgba(165,42,42,0.7);
+    color: antiquewhite;
+    font-style: italic;
+    padding: 20px;
+}
